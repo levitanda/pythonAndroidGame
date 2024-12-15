@@ -1,0 +1,210 @@
+{
+    "tests": [
+        {
+            "name": "Which Pet Suits You?",
+            "questions": [
+                {
+                    "question": "What is your favorite activity?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Playing outside", "points": 4}, 
+                        {"text": "Reading a book", "points": 3}, 
+                        {"text": "Watching TV", "points": 2}, 
+                        {"text": "Crafting projects", "points": 1}
+                    ]
+                },
+                {
+                    "question": "How much free time do you have each day?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Less than an hour", "points": 1}, 
+                        {"text": "1-2 hours", "points": 2}, 
+                        {"text": "2-4 hours", "points": 3}, 
+                        {"text": "4+ hours", "points": 4}
+                    ]
+                },
+                {
+                    "question": "What is your ideal weekend plan?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Relaxing at home", "points": 2}, 
+                        {"text": "Going on an adventure", "points": 4}, 
+                        {"text": "Spending time with family", "points": 3}, 
+                        {"text": "Finishing creative projects", "points": 1}
+                    ]
+                },
+                {
+                    "question": "Which of these best describes your personality?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Calm and thoughtful", "points": 3}, 
+                        {"text": "Adventurous and active", "points": 4}, 
+                        {"text": "Creative and focused", "points": 1}, 
+                        {"text": "Patient and caring", "points": 2}
+                    ]
+                },
+                {
+                    "question": "How do you prefer to spend time with friends?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Hosting a dinner party", "points": 2}, 
+                        {"text": "Going on a trip", "points": 4}, 
+                        {"text": "Relaxing and talking", "points": 3}, 
+                        {"text": "Doing a group project", "points": 1}
+                    ]
+                },
+                {
+                    "question": "Which of these places do you feel most comfortable in?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "A cozy home", "points": 2}, 
+                        {"text": "An open field or park", "points": 4}, 
+                        {"text": "A quiet library", "points": 3}, 
+                        {"text": "A creative studio", "points": 1}
+                    ]
+                },
+                {
+                    "question": "What kind of pet size do you prefer?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Small and manageable", "points": 2}, 
+                        {"text": "Medium-sized and playful", "points": 3}, 
+                        {"text": "Large and energetic", "points": 4}, 
+                        {"text": "Tiny and low-maintenance", "points": 1}
+                    ]
+                },
+                {
+                    "question": "How much attention are you willing to give to a pet?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "I prefer a pet that needs minimal attention", "points": 1}, 
+                        {"text": "I can give moderate daily attention", "points": 2}, 
+                        {"text": "I have lots of time for a playful pet", "points": 3}, 
+                        {"text": "I can give constant attention and playtime", "points": 4}
+                    ]
+                },
+                {
+                    "question": "Which of these best matches your energy level?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Low - I prefer to relax", "points": 1}, 
+                        {"text": "Moderate - I like some activity", "points": 2}, 
+                        {"text": "High - I love being active", "points": 4}, 
+                        {"text": "Balanced - I like a mix of both", "points": 3}
+                    ]
+                },
+                {
+                    "question": "What do you want most from a pet?", 
+                    "image": "pet.jpg", 
+                    "answers": [
+                        {"text": "Companionship and loyalty", "points": 3}, 
+                        {"text": "Playfulness and energy", "points": 4}, 
+                        {"text": "Calm presence and tranquility", "points": 2}, 
+                        {"text": "Low maintenance and simplicity", "points": 1}
+                    ]
+                }
+            ],
+            "results": [
+                {"min_points": 0, "max_points": 10, "result": "A fish or turtle would be a perfect pet for you - calm and low maintenance!"},
+                {"min_points": 11, "max_points": 20, "result": "A rabbit or guinea pig would suit you - playful but easy to care for."},
+                {"min_points": 21, "max_points": 30, "result": "A cat might be your best match - independent yet loving!"},
+                {"min_points": 31, "max_points": 40, "result": "A dog would be your perfect pet - energetic and full of love!"},
+                {"min_points": 41, "max_points": 50, "result": "You seem to be ready for a unique pet like a parrot or an exotic animal!"}
+            ]
+        },
+        {
+            "name": "Who Are You from Disney Princesses?",
+            "questions": [
+                {
+                    "question": "How do you spend your weekends?", 
+                    "image": "princess.webp", 
+                    "answers": [
+                        {"text": "Exploring nature", "points": 4}, 
+                        {"text": "Learning something new", "points": 3}, 
+                        {"text": "Spending time with family", "points": 2}, 
+                        {"text": "Following your dreams", "points": 1}
+                    ]
+                },
+                {
+                    "question": "Which color do you like most?", 
+                    "image": "princess.webp", 
+                    "answers": [
+                        {"text": "Blue", "points": 1}, 
+                        {"text": "Pink", "points": 2}, 
+                        {"text": "Green", "points": 3}, 
+                        {"text": "Purple", "points": 4}
+                    ]
+                }
+            ],
+            "results": [
+                {"min_points": 0, "max_points": 10, "result": "You are most like Snow White - kind, loving, and surrounded by friends!"},
+                {"min_points": 11, "max_points": 20, "result": "You resemble Belle - curious, thoughtful, and always learning!"},
+                {"min_points": 21, "max_points": 30, "result": "You are like Cinderella - hardworking, kind, and full of hope!"},
+                {"min_points": 31, "max_points": 40, "result": "You are similar to Ariel - adventurous, brave, and full of curiosity!"},
+                {"min_points": 41, "max_points": 50, "result": "You have the spirit of Mulan - brave, determined, and willing to stand up for what's right!"}
+            ]
+        },
+        {
+            "name": "Who Are You in the World of Magical Fairies?",
+            "questions": [
+                {
+                    "question": "What is your favorite time of day?", 
+                    "image": "fairy.webp", 
+                    "answers": [
+                        {"text": "Morning - fresh and clean", "points": 1}, 
+                        {"text": "Noon - bright and full of energy", "points": 3}, 
+                        {"text": "Evening - warm and cozy", "points": 2}, 
+                        {"text": "Night - mysterious and full of secrets", "points": 4}
+                    ]
+                },
+                {
+                    "question": "What is your favorite color?", 
+                    "image": "fairy.webp", 
+                    "answers": [
+                        {"text": "Yellow - warm and sunny", "points": 1}, 
+                        {"text": "Red - fiery and passionate", "points": 3}, 
+                        {"text": "Green - natural and calm", "points": 2}, 
+                        {"text": "Black or Purple - mysterious and magical", "points": 4}
+                    ]
+                },
+                {
+                    "question": "How would you describe your personality?", 
+                    "image": "fairy.webp", 
+                    "answers": [
+                        {"text": "Friendly and kind", "points": 1}, 
+                        {"text": "Determined and ambitious", "points": 3}, 
+                        {"text": "Calm and balanced", "points": 2}, 
+                        {"text": "Mysterious and independent", "points": 4}
+                    ]
+                },
+                {
+                    "question": "Which natural element do you feel most connected to?", 
+                    "image": "fairy.webp", 
+                    "answers": [
+                        {"text": "Light and warmth", "points": 1}, 
+                        {"text": "Fire and sparks", "points": 3}, 
+                        {"text": "Forests and nature", "points": 2}, 
+                        {"text": "Stars and the night sky", "points": 4}
+                    ]
+                },
+                {
+                    "question": "What is your favorite weather?", 
+                    "image": "fairy.webp", 
+                    "answers": [
+                        {"text": "Sunny and warm", "points": 1}, 
+                        {"text": "Thunderstorm with lightning", "points": 3}, 
+                        {"text": "Breezy with fresh air", "points": 2}, 
+                        {"text": "Night with a clear, starry sky", "points": 4}
+                    ]
+                }
+            ],
+            "results": [
+                {"min_points": 5, "max_points": 25, "result": "You are a Fairy of Light - kind, loving, and full of warmth!"},
+                {"min_points": 26, "max_points": 35, "result": "You are a Fairy of Nature - calm, harmonious, and connected to the earth!"},
+                {"min_points": 36, "max_points": 45, "result": "You are a Fairy of Fire - passionate, bold, and unstoppable!"},
+                {"min_points": 46, "max_points": 55, "result": "You are a Fairy of Shadows - mysterious, wise, and independent!"},
+                {"min_points": 56, "max_points": 60, "result": "You are a Fairy of Stars - dreamy, adventurous, and full of wonder!"}
+            ]
+        }        
+    ]
+}
